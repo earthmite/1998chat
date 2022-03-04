@@ -108,8 +108,7 @@ function createMessageElement(text, member) {
   el.appendChild(createMemberElement(member));
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
-  var objDiv = document.getElementById('div');
-objDiv.scrollTop = objDiv.scrollHeight;
+  this.scrollIntoView(false);
   return el;
 }
 
@@ -117,8 +116,6 @@ function addMessageToListDOM(text, member) {
   const el = DOM.messages;
   const wasTop = el.scrollTop === el.scrollHeight - el.clientHeight;
   el.appendChild(createMessageElement(text, member));
-  if (wasTop) {
-    element.scrollTop = element.scrollHeight;
-  }
+  
 }
 
