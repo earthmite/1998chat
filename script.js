@@ -1,5 +1,5 @@
 const CLIENT_ID = 'JbLYzSLLVR0Pyc4n';
-
+if (!document.getElementById) document.write('<link rel="stylesheet" href="over.css">');
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { 
     name: prompt("Username?"),
@@ -108,7 +108,7 @@ function createMessageElement(text, member) {
   el.appendChild(createMemberElement(member));
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
-  el.scrollIntoView(true);
+  el.scrollIntoView(false);
   return el;
 }
 
