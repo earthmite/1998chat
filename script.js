@@ -1,5 +1,5 @@
 const CLIENT_ID = 'JbLYzSLLVR0Pyc4n';
-
+element.scrollTop = element.clientHeight;
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { 
     name: getRandomName(),
