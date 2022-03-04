@@ -83,7 +83,6 @@ const DOM = {
 DOM.form.addEventListener('submit', sendMessage);
 
 function sendMessage() {
-  element.scrollTop = element.clientHeight;
   const value = DOM.input.value;
   if (value === '') {
     return;
