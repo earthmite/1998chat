@@ -108,11 +108,8 @@ function createMessageElement(text, member) {
   el.appendChild(createMemberElement(member));
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
-  window.setInterval(function() {
-    var elem = document.getElementById('data');
-    elem.scrollTop = elem.scrollHeight;
-  }, 5000);
-  
+  var objDiv = document.getElementById('div');
+objDiv.scrollTop = objDiv.scrollHeight;
   return el;
 }
 
