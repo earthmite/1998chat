@@ -116,7 +116,7 @@ function addMessageToListDOM(text, member) {
   const wasTop = el.scrollTop === el.scrollHeight - el.clientHeight;
   el.appendChild(createMessageElement(text, member));
   if (wasTop) {
-    el.scrollTop = el.scrollHeight - el.clientHeight;
+    element.scrollTop = element.scrollHeight;
   }
 }
 
