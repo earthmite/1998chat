@@ -2,7 +2,7 @@ const CLIENT_ID = 'JbLYzSLLVR0Pyc4n';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { 
-    name: getRandomName(),
+    name = prompt("What's your name?"),
     color: getRandomColor(),
   },
 });
