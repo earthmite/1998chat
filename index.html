@@ -5,6 +5,7 @@
   <!--<script type='text/javascript' src='http://0.0.0.0:8080/scaledrone.js'></script>-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="over.css"/>
   <style>
     body {
       box-sizing: border-box;
@@ -14,13 +15,12 @@
       flex-direction: column;
       max-height: 100vh;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background-color: #3b3f40;
     }
 
     .members-count,
     .members-list,
     .messages {
-      border: 1px solid #3a3a3a;
+      border: 1px solid #e4e4e4;
       padding: 15px;
       margin-bottom: 15px;
     }
@@ -48,7 +48,7 @@
     }
     .message-form__input {
       flex-grow: 1;
-      border: 1px solid #3a3a3a;
+      border: 1px solid #dfdfdf;
       padding: 10px 15px;
       font-size: 16px;
     }
@@ -62,7 +62,7 @@
   <div class="members-list">-</div>
   <div class="messages"></div>
   <form class="message-form" onsubmit="return false;">
-    <input class="message-form__input" placeholder="Type a message.." type="text"/>
+    <input class="message-form__input" placeholder="Message.." type="text"/>
     <input class="message-form__button" value="Send" type="submit"/>
   </form>
   <script src="./script.js"></script>
