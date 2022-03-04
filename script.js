@@ -1,5 +1,5 @@
 const CLIENT_ID = 'JbLYzSLLVR0Pyc4n';
-element.scrollTop = element.clientHeight;
+
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { 
     name: getRandomName(),
@@ -83,6 +83,7 @@ const DOM = {
 DOM.form.addEventListener('submit', sendMessage);
 
 function sendMessage() {
+  element.scrollTop = element.clientHeight;
   const value = DOM.input.value;
   if (value === '') {
     return;
