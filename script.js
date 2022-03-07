@@ -8,7 +8,7 @@ const drone = new ScaleDrone(CLIENT_ID, {
 });
 
 if (name == null){
-  name: "Noname"
+  name: noname
 }
 
 let members = [];
