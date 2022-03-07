@@ -1,5 +1,7 @@
 const CLIENT_ID = 'JbLYzSLLVR0Pyc4n';
+
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { 
     name: prompt("Username?"),
