@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
