@@ -6,10 +6,11 @@ const drone = new ScaleDrone(CLIENT_ID, {
     color: getRandomColor(),
   },
 });
-
-if (name == null){
-  name: noname
+if(document.getElementById("name").value.length == 0)
+{
+    alert("empty")
 }
+
 
 let members = [];
 
