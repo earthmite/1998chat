@@ -8,6 +8,8 @@
 
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <style>
+    
+    
     body {
       box-sizing: border-box;
       margin: 0;
@@ -56,12 +58,18 @@
     .message-form__button {
       margin: 10px;
     }
+    #foo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    }
   </style>
 </head>
 <body>
   <div class="members-count">-</div>
   <div class="members-list">-</div>
   <div class="messages"></div>
+  <div id="foo">Made with ❤️ by Q_Q</div>
   <form class="message-form" onsubmit="return false;">
     <input class="message-form__input" placeholder="Message.." type="text"/>
     <input class="message-form__button" value="Send" type="submit"/>
