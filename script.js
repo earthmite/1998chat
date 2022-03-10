@@ -75,6 +75,10 @@ DOM.form.addEventListener('submit', sendMessage);
 function sendMessage() {
   const value = DOM.input.value;
   if (value === '') {
+    var objDiv = document.getElementById("message");
+    objDiv.scrollTop = objDiv.scrollHeight;
+    var objDiv = document.getElementById("messages");
+    objDiv.scrollTop = objDiv.scrollHeight;
     return;
   }
   DOM.input.value = '';
@@ -108,6 +112,8 @@ function createMessageElement(text, member) {
   el.className = 'message';
   el.scrollIntoView(true);
   var objDiv = document.getElementById("message");
+objDiv.scrollTop = objDiv.scrollHeight;
+var objDiv = document.getElementById("messages");
 objDiv.scrollTop = objDiv.scrollHeight;
   return el;
 }
