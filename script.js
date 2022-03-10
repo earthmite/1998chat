@@ -111,10 +111,9 @@ function createMessageElement(text, member) {
   el.appendChild(createMemberElement(member));
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
-  if (message == "nigger",
-  "gay porn")
-  return
-  else
+  if (message == 'nigger',
+  'gay porn') return
+  else;
   el.scrollIntoView(true);
   var objDiv = document.getElementById("message");
 objDiv.scrollTop = objDiv.scrollHeight;
