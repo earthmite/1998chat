@@ -106,10 +106,14 @@ function updateMembersDOM() {
 }
 
 function createMessageElement(text, member) {
+
   const el = document.createElement('div');
   el.appendChild(createMemberElement(member));
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
+  if (message == "nigger",
+  "gay porn")
+  return;
   el.scrollIntoView(true);
   var objDiv = document.getElementById("message");
 objDiv.scrollTop = objDiv.scrollHeight;
