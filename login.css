@@ -1,0 +1,79 @@
+	
+			body{
+				position: absolute;
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				height: 100%;
+			}
+			.boxx{
+				position: relative;
+				margin: -7% 10% 10% 10%;
+				background-color: white;
+				width: 70%;
+				height: 100%;
+				z-index: 10;
+				border-radius: 2px;
+             	box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.5);
+				padding: 5%;
+				text-align: center;
+				border-bottom: 10px solid black;
+
+			}
+			.outer
+			{
+				position: absolute;
+				width: 100%;
+			}
+			.header {
+				height: 40%;
+				width: 100%;
+				background: black;
+				box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.5);
+			}
+			.brand{
+				font-size: 50px;
+				color: white;
+				text-decoration: none;
+				padding: 20px;
+				float: left;
+			}
+			.left{
+				float: right;
+				margin: 0;
+				
+			}
+			ul>li {
+				display: inline-block;
+				padding: 20px;
+				font-size: 30px;
+				list-style: none;
+				margin-right: 30px;
+			}
+			li>a {
+				text-decoration: none;
+				color: white;
+			}
+			.indent{
+				float: left;
+			}
+			.box{
+				width:200px; 
+				height:30px; 
+				border-radius:5%;
+			}
+			.button
+			{
+				font-size: 15px;
+				width: 120px;	
+				height: 30px;
+				border-radius: 2px;
+             	box-shadow: 4px 5px 8px 0px rgba(0, 0, 0, 0.5);
+				margin: 20px;
+			}
+			.btn {
+				border: none;
+				background-color: black;
+				font-size: 30px;
+				color: white;
+			}
