@@ -111,7 +111,6 @@ function createMessageElement(text, member) {
   el.appendChild(createMemberElement(member));
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
-  el.scrollIntoView(true);
   var objDiv = document.getElementById("message");
 var objDiv = document.getElementById("messages");
   return el;
