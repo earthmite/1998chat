@@ -113,6 +113,10 @@ function createMessageElement(text, member) {
   el.className = 'message';
   var objDiv = document.getElementById("message");
 var objDiv = document.getElementById("messages");
+let objDiv = document.getElementById("message");
+objDiv.scrollTop = objDiv.scrollHeight;
+let objDiv = document.getElementById("messages");
+objDiv.scrollTop = objDiv.scrollHeight;
   return el;
 }
 
