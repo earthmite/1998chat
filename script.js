@@ -86,7 +86,7 @@ function sendMessage() {
     room: 'observable-room',
     message: value,
   });
-}
+} 
 
 function createMemberElement(member) {
   const { name, color } = member.clientData;
